@@ -47,13 +47,13 @@ html {
   }
   
   li a {
-    display: rgb(12, 12, 12);
-    color: rgb(15, 15, 15);
+    display: rgb(253, 250, 250);
+    color: rgb(252, 248, 248);
     font-weight: bolder;
     text-align: center;
     padding: 10px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 30px;
     margin-top: 50px;
     margin-left: 10px;
     overflow-wrap: normal;
@@ -79,7 +79,7 @@ html {
     margin-bottom: 10px;
     margin-top: 0px;
     height: 45px;
-    background-color: #0817e75b;
+    background-color: #edeef3;
     border-radius: 30px;
     padding: 3px;
     align-content: right !important;
@@ -114,21 +114,21 @@ html {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    color: rgb(41, 13, 196);
+    color: rgb(246, 245, 250);
     text-decoration: none;
   }
   
   /*RATING CARDS*/
   
   .block-text {
-    color: #111110;
+    color: #070707;
     font-size: 14px;
     margin-top: 10px;
     padding: 10px 10px;
     text-align: center;
   }
   .block-text a {
-    color: hsl(0, 4%, 10%);
+    color: hsl(0, 0%, 6%);
     font-size: 25px;
     font-weight: bold;
     line-height: 5px;
@@ -137,7 +137,7 @@ html {
     text-align: center;
   }
   .block-text p {
-    color: hsl(0, 0%, 4%);
+    color: hsl(0, 4%, 5%);
     font-family: 	'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
     line-height: 20px;
@@ -161,7 +161,7 @@ html {
     z-index: 2;
   }
   .person-text a {
-    color: #000000;
+    color: #181818;
     display: block;
     font-size: 14px;
     margin-top: 3px;
@@ -169,7 +169,7 @@ html {
     font-weight: bold;
   }
   .person-text i {
-    color: rgb(248, 247, 247);
+    color: rgb(15, 15, 15);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 13px;
   }
@@ -494,7 +494,7 @@ html {
       display: block;
       text-align: center;
       width: 100%;
-      color: rgb(14, 13, 13);
+      color: rgb(241, 238, 238);
       font-weight: bold;
       font-size: 25px;
     }
@@ -882,7 +882,7 @@ html {
     #videoM {
       height: 150px;
     }
-    /*avaliações*/
+    /*avaliação*/
     .container {
       display: flex;
     }
@@ -918,7 +918,7 @@ html {
       padding-right: 0px;
     }
   
-    /*novidades*/
+    /*Destaque*/
     .novidades img {
       width: 150px;
       padding-top: 10px;
@@ -940,7 +940,7 @@ html {
       padding: 15px;
     }
   
-    /*infos*/
+    /*icone de rede*/
     .redes .icones {
       font-size: 2em;
       height: inherit;
@@ -981,7 +981,7 @@ html {
     left: 400px;
     margin: 100px;
     top: 0;
-    background-color: rgba(35, 74, 92, 0);
+    background-color: rgb(243, 248, 250);
     color: black;
   }
   #populares img {

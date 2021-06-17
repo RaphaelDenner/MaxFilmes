@@ -114,7 +114,7 @@ function MostrarFilmesNovi( ){
   
       let codigo_html = '';
       let titulo_html = "";
-        titulo_html += `<h1 class="lançamento" >NOVIDADES</h1>`;
+        titulo_html += `<h1 class="lançamento" >DESTAQUE</h1>`;
       // Montar os cards
       for (i=0; i< 1; i++) {
           // Concatenar o código do Card com os dados do JSON
