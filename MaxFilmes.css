@@ -69,7 +69,7 @@ html {
   
   button.btn {
     float: right;
-    background-color: rgb(43, 24, 219);
+    background-color: rgb(7, 11, 248);
     color: rgb(254, 254, 255);
     margin: 15px;
   }
@@ -165,7 +165,7 @@ html {
     display: block;
     font-size: 14px;
     margin-top: 3px;
-    text-decoration: underline;
+    text-decoration: none;
     font-weight: bold;
   }
   .person-text i {
@@ -197,7 +197,7 @@ html {
       background-repeat: no-repeat;
     }
     .logo_header {
-      width: 100px;
+      width: 200px;
       padding-bottom: 20px;
     }
   
@@ -326,7 +326,7 @@ html {
     #buttonc2,
     #buttonc3,
     #buttonc4 {
-      float: right;
+      float: left;
       background-color: rgb(255, 251, 251);
       color: rgb(39, 39, 182);
     }
@@ -424,7 +424,7 @@ html {
     }
     .logo_footer {
       align-self: center;
-      width: 30px;
+      width: 110px;
       margin-left: 30px;
     }
   }
@@ -713,8 +713,8 @@ html {
       background-repeat: no-repeat;
     }
     .logo_footer {
-      margin-left: 30px;
-      width: 30px;
+      margin-left: 50px;
+      width: 120px;
     }
   }
   
@@ -761,7 +761,7 @@ html {
       background-repeat: no-repeat;
     }
     header.header img.logo_header {
-      width: 200px;
+      width: 250px;
       align-self: center;
       padding-top: 20px;
       float: left;
@@ -944,7 +944,7 @@ html {
     .redes .icones {
       font-size: 2em;
       height: inherit;
-      color: rgb(0, 38, 252);
+      color: rgb(7, 11, 248);
     }
     .sobre,
     .editorial,
