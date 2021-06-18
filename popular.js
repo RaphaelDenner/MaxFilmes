@@ -35,7 +35,7 @@ function MostrarFilmesPop( ){
               <div class="card-body">
                 <h2 class="card-title">${titulo}</h2>
                 <p class="card-text">${descricao}</p>
-                <a href="full.html"  id="buttonc1" class="btn btn-primary" onclick="sessionStorage.setItem('id', ${i}); sessionStorage.setItem('endp', 'popular')">Saiba Mais</a>
+                <a href="dbm.html"  id="buttonc1" class="btn btn-primary" onclick="sessionStorage.setItem('id', ${i}); sessionStorage.setItem('endp', 'popular')">Saiba Mais</a>
               </div>
             </div>
           </div>
@@ -84,7 +84,7 @@ function MostrarFilmesCin( ){
               <div class="card-body">
                 <h2 class="card-title">${titulo}</h2>
                 <p class="card-text">${descricao}</p>
-                <a href="full.html"  id="buttonc1" class="btn btn-primary" onclick="sessionStorage.setItem('id', ${i}); sessionStorage.setItem('endp', 'now_playing')">Saiba Mais</a>
+                <a href="dbm.html"  id="buttonc1" class="btn btn-primary" onclick="sessionStorage.setItem('id', ${i}); sessionStorage.setItem('endp', 'now_playing')">Saiba Mais</a>
               </div>
             </div>
           </div>

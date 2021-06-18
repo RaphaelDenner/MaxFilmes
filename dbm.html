@@ -27,13 +27,13 @@
     </head>
  
     <!--corpo-->
-    <body bgcolor="FF0000">
+    <body >
         <header class="header">
             <!--Navegação-->
             <nav class="navbar navbar fixed-top navbar-expand-sm" id="navegação">
                 <!--logo-->
                 <a class="navbar-brand d-inline-block" href="#">
-                    <img class="logo_header" src="Imagens/logo_footer.png" width="70" height="">
+                    <img class="logo_header" src="Imagens/logo_footer.png" width="250" height="">
                 </a>
                 <!--menuToggle-->
                 <input type="checkbox" id="menuToggle">
@@ -43,17 +43,17 @@
                 </label>
                 <ul class="menuT" class="nav">
                   <li class="nav-item"><a class="nav-link active" href="home.html">INICIO </a></li>
-                  <li class="nav-item"><a class="nav-link" href="pop.html" id="onnovi"> DESTAQUE </a></li>
-                  <li class="nav-item"><a class="nav-link" href="pop.html" id="oncinema"> EM CARTAZ </a></li>
-                  <li class="nav-item"><a class="nav-link" href="pop.html" id="onpopulares"> POPULARES </a></li>
-                
+                  <li class="nav-item"><a class="nav-link" href="popular.html" id="onnovi"> LANÇAMENTO </a></li>
+                  <li class="nav-item"><a class="nav-link" href="popular.html" id="oncinema"> EM CARTAZ </a></li>
+                  <li class="nav-item"><a class="nav-link" href="popular.html" id="onpopulares"> POPULARES </a></li>
+                  
               </ul>
                 <!--searchbar-->
                 <div class="container h-50" id="pesquisa">
                     <div class="d-flex justify-content-right h-20">
                       <div class="searchbar">
                         <input class="search_input" placeholder="pesquisa" type="text" id="search"> 
-                        <a href=pesquisa.html><button style="background-color: rgba(35, 0, 192, 0.473); border-radius: 10px; height: 30px;" id="btn_pesquisa" >IR</button></a>
+                        <a href=pesquisa.html><button style="background-color: rgba(255, 255, 255, 0.993); border-radius: 10px; height: 30px;" id="btn_pesquisa" >PESQUISAR</button></a>
                       </div>
                     </div>
                 </div>
@@ -65,31 +65,34 @@
             <h1 class="lançamento" ></h1></div>
             <section class="lançamentos" >
                 <div id="pop">
-                    <div class="card mb-3" style="max-width: 540px;">
-                        <div class="row no-gutters">
-                          <div class="col-md-4">
-                            <img src="..." class="card-img" alt="...">
-                          </div>
-                          <div class="col-md-8">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>\
-                            </div>
-                          </div>
+                  <div class="card mb-3" style="max-width: 700px;">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img src="${imagem}" class="card-img" alt="${titulo}">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h2 class="card-title">${titulo} (${lancamento})</h2>
+                          <h3 class="card-title">Título Original: ${titulo_origi}    Idioma Original: ${lingua_origi}</h3>
+                          <p class="card-text">Popularidade: ${pop}</p>
+                          <p class="card-text">Sinopse: ${descricao}</p>
+                          <a href="https://www.themoviedb.org/movie/${id}-${titulo}" target="_blank" id="buttonc1" class="btn btn-primary" >Saiba Mais</a>
                         </div>
                       </div>
+                    </div>
+                  </div>
                 </div>
             </section>
     </main>
 <!--rodapé-->
-<footer class="footer">
-    <p class="footer_full"> Copyright 2021 - Disciplina de Desenvolvimento de Interfaces Web - ICEI PUC Minas - Raphael Denner 
-        <img class="logo_footer" src="Imagens/logo_footer.png"></p>
-    <p class="footer_semi">Copyright 2021 - Disciplina de Desenvolvimento de Interfaces Web - Raphael Denner  
-        <img class="logo_footer" src="Imagens/logo_footer.png"></p> 
-    <p class="footer_hide"> Copyright 2021
-        <img class="logo_footer" src="Imagens/logo_footer.png"></p>           
-</footer>
+        <footer class="footer">
+            <p class="footer_full"> Copyright 2021 - Disciplina de Desenvolvimento de Interfaces Web - ICEI PUC Minas - Raphael Denner 
+                <img class="logo_footer" src="Imagens/logo_footer.png"></p>
+            <p class="footer_semi">Copyright 2021 - Disciplina de Desenvolvimento de Interfaces Web - Raphael Denner 
+                <img class="logo_footer" src="Imagens/logo_footer.png"></p> 
+            <p class="footer_hide"> Copyright 2021 
+                <img class="logo_footer" src="Imagens/logo_footer.png"></p>           
+        </footer>
     </body>
     <script>sessionStorage.setItem("isPesquisa", false);</script>
      <!--rating cards-->
@@ -100,5 +103,5 @@
      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-     <script src="pop.js"></script>
+     <script src="dbm.js"></script>
 </html>
